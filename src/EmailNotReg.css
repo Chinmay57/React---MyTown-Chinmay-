@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap');
+
+.page-container{
+  height: 100vh;          
+  display: flex;
+  justify-content: center;        
+  align-items:center;            
+  background: linear-gradient(to bottom, #285A8C, #FFFFFF);      
+}
+
+.Message_Card{
+  width: 624px;
+  height: 295px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.Inside_Box{
+  font-family: 'Inter Tight', sans-serif;
+  margin: 40px 60px;
+  display: flex;      
+  flex-direction: column;
+  align-items: center;
+}
+
+.Inside_Box .icon{
+    height: 64px;
+    width: 64px;
+}
+.Inside_Box h4{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    color:#182D41;
+}
+.Inside_Box h5{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top:12px;
+    color: #7A7A7A;
+}
+.Inside_Box .SignUp-btn{
+    font-size: 16px;
+    width: 500px;
+    height: 39px;
+    color:#ffffff;
+    border-radius: 8px;
+    background-color: #285A8C;
+    border: none;
+    outline: none;
+}
